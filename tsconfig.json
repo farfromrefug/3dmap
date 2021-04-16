@@ -13,13 +13,13 @@
       "@/*": ["app/*"]
     },
     "typeRoots": ["types"],
-    "types": ["node"],
+    "types": ["node","@danmarshall/deckgl-typings"],
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true
   },
-  "include": ["app", "types"],
+  "include": ["app", "types", "reference.d.ts"],
   "exclude": ["node_modules", "platforms"]
 }
