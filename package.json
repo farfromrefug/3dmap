@@ -45,7 +45,7 @@
     "@deck.gl/layers": "8.4.13",
     "@deck.gl/mesh-layers": "8.4.13",
     "@nativescript-community/gesturehandler": "0.1.41",
-    "@nativescript-community/ui-carto": "1.5.0",
+    "@nativescript-community/ui-carto": "^1.4.8",
     "@nativescript/canvas": "0.9.18",
     "@nativescript/canvas-polyfill": "1.0.0-alpha22",
     "@nativescript/theme": "~3.0.1",
@@ -54,8 +54,8 @@
     "vue-property-decorator": "^9.1.2"
   },
   "devDependencies": {
-    "@nativescript/core": "~8.0.1",
     "@nativescript/android": "8.0.0",
+    "@nativescript/core": "~8.0.1",
     "@nativescript/ios": "8.0.0",
     "@nativescript/types": "~8.0.0",
     "@nativescript/webpack": "beta",
