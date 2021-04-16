@@ -40,21 +40,8 @@ export default class MapComponent extends Vue {
         const shadowColor = new Color('rgba(0,0,0,0.39)');
         const highlightColor = new Color('rgba(255, 255, 255,0)');
 
-        let tileFilterMode: RasterTileFilterMode;
-        switch (tileFilterModeStr) {
-            case 'bicubic':
-                tileFilterMode = RasterTileFilterMode.RASTER_TILE_FILTER_MODE_BICUBIC;
-                break;
-            case 'bilinear':
-                tileFilterMode = RasterTileFilterMode.RASTER_TILE_FILTER_MODE_BILINEAR;
-                break;
-            case 'nearest':
-                tileFilterMode = RasterTileFilterMode.RASTER_TILE_FILTER_MODE_NEAREST;
-                break;
-        }
         return new HillshadeRasterTileLayer({
             // decoder,
-            tileFilterMode,
             visibleZoomRange: [3, 16],
             contrast,
             // exagerateHeightScaleEnabled: false,
