@@ -38,14 +38,14 @@
     "category-general"
   ],
   "dependencies": {
-    "@akylas/nativescript": "file:/Volumes/data/dev/nativescript/NativeScript/dist/packages/akylas-nativescript-8.0.1.tgz",
+    "@akylas/nativescript": "8.0.1",
     "@danmarshall/deckgl-typings": "^4.9.0",
     "@deck.gl/core": "8.4.13",
     "@deck.gl/geo-layers": "8.4.13",
     "@deck.gl/layers": "8.4.13",
     "@deck.gl/mesh-layers": "8.4.13",
-    "@nativescript-community/gesturehandler": "^0.1.41",
-    "@nativescript-community/ui-carto": "^1.4.11",
+    "@nativescript-community/gesturehandler": "0.1.41",
+    "@nativescript-community/ui-carto": "1.5.0",
     "@nativescript/canvas": "0.9.18",
     "@nativescript/canvas-polyfill": "1.0.0-alpha22",
     "@nativescript/theme": "~3.0.1",
@@ -56,7 +56,7 @@
   "devDependencies": {
     "@nativescript/core": "~8.0.1",
     "@nativescript/android": "8.0.0",
-    "@nativescript/ios": "JSC",
+    "@nativescript/ios": "8.0.0",
     "@nativescript/types": "~8.0.0",
     "@nativescript/webpack": "beta",
     "@types/node": "~14.6.2",
